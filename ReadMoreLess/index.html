@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      div {
+        background-color: rgba(240, 240, 240, 0.973);
+        padding: 1px 20px 20px 20px;
+        width: 300px;
+      }
+      p {
+        transition: 0.3s all;
+      }
+      button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        transition: 0.3s all;
+      }
+      button:hover {
+        background-color: darkgrey;
+        color: black;
+        cursor: pointer;
+      }
+      .more-text {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h2>Example header</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quisquam reprehenderit deserunt sed 
+          dignis<span class="dots">...</span><span class="more-text">simos quaerat blanditiis porro! Id in perferendis 
+          consequatur. Sequi earum maxime, ut dicta amet corrupti voluptatem vero commodi obcaecati quas perferendis? 
+          Recusandae sequi quasi odio dicta aperiam a officia, magni similique nostrum quisquam, beatae adipisci quia eius 
+          quaerat deserunt, labore voluptas magnam. Saepe porro iusto fuga, eos dolorem sit tempore earum recusandae fugit quisquam quis impedit 
+          id ab dicta sequi deserunt numquam molestias, soluta rerum harum architecto aut! Laboriosam nulla, 
+          id, vitae doloremque illo repudiandae consectetur deserunt obcaecati quas veritatis provident 
+          quidem inventore voluptas nobis architecto veniam.</span></p>
+        <button data-btn="more" class="text-toggle-btn">Read More</button>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
